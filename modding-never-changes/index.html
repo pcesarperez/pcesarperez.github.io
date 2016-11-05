@@ -4,19 +4,19 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5">
+<meta name="generator" content="Asciidoctor 1.5.3">
 <meta name="author" content="Pablo César Pérez González (aka "adastra") &lt;modding.never.changes@gmail.com&gt;">
 <title>Modding... Modding never changes</title>
 <link rel="stylesheet" href="./styles/Modding-never-changes.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
 <h1>Modding... Modding never changes</h1>
 <div class="details">
 <span id="author" class="author">Pablo César Pérez González (aka "adastra") &lt;modding.never.changes@gmail.com&gt;</span><br>
-<span id="revnumber">version 0.6,</span>
-<span id="revdate">30/10/2016</span>
+<span id="revnumber">version 0.7-beta,</span>
+<span id="revdate">02/11/2016</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -206,7 +206,7 @@
 <p>This is, if you install mod "A" with a certain asset "foo", and later you install mod "B" with an equally named asset "foo", "B" version of "foo" will overwrite "A" version of "foo", for good. This makes critical to know the installation order, because if you want to get back to an earlier state of the game, you will have to uninstall the mods <em>in the reverse order you installed them</em>.</p>
 </div>
 <div class="paragraph">
-<p>NMM does a good job tracking the changes to the game assets as you install new mods, but rollbacks are difficult to perform and error prone (that&#8217;s why I had to start over again so many times during the writing of this guide). And that&#8217;s the reason why following a functional approach is somewhat mode difficult with NMM, because sometimes you want to install mod "A" before mod "B", because it makes sense to you, but you <strong>don&#8217;t</strong> want "B" assets to overwrite "A" assets. Don&#8217;t worry, that&#8217;s something I have to deal with, not you.</p>
+<p>NMM does a good job tracking the changes to the game assets as you install new mods, but rollbacks are difficult to perform and error prone (that&#8217;s why I had to start over again so many times during the writing of this guide). And that&#8217;s the reason why following a functional approach is somewhat more difficult with NMM, because sometimes you want to install mod "A" before mod "B", because it makes sense to you, but you <strong>don&#8217;t</strong> want "B" assets to overwrite "A" assets. Don&#8217;t worry, that&#8217;s something I have to deal with, not you.</p>
 </div>
 <div class="paragraph">
 <p>Without further ado, let&#8217;s start modding our beloved <em>Fallout 3</em>.</p>
@@ -264,7 +264,7 @@
 <p>The launcher dutifully informs you that video hardware is about to be detected, thus setting up the configuration for you.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20video%20hardware%20detection.png" alt="Fallout 3 video hardware detection">
+<img src="images/Fallout%203%20video%20hardware%20detection.png" alt="Fallout 3 video hardware detection">
 </div>
 <div class="title">Figure 1. Fallout 3 video hardware detection</div>
 </div>
@@ -273,7 +273,7 @@
 <p>Lucky me, my video card is up to the task (however, you don&#8217;t want to know the specs of my box; no need to cry).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/HQ%20settings%20set.png" alt="High Quality settings set">
+<img src="images/HQ%20settings%20set.png" alt="High Quality settings set">
 </div>
 <div class="title">Figure 2. High Quality settings set</div>
 </div>
@@ -282,7 +282,7 @@
 <p>And here we go! This is the launcher in all its greenish glory.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20launcher.png" alt="Fallout 3 launcher">
+<img src="images/Fallout%203%20launcher.png" alt="Fallout 3 launcher">
 </div>
 <div class="title">Figure 3. Fallout 3 launcher</div>
 </div>
@@ -291,7 +291,7 @@
 <p>Finally, click on <em>Play</em>, and enjoy the view.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20main%20menu.png" alt="Fallout 3 main menu">
+<img src="images/Fallout%203%20main%20menu.png" alt="Fallout 3 main menu">
 </div>
 <div class="title">Figure 4. Fallout 3 main menu</div>
 </div>
@@ -356,7 +356,7 @@
 <p>If you get a warning about absent <code>FALLOUT.INI</code>, please run the game once (I told you).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/GFWL%20Disabler%20error.png" alt="GFWL Disabler error">
+<img src="images/GFWL%20Disabler%20error.png" alt="GFWL Disabler error">
 </div>
 <div class="title">Figure 5. GFWL Disabler error</div>
 </div>
@@ -365,7 +365,7 @@
 <p>In the following window, just click on <em>Disable G4WL</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/GFWL%20Disabler.png" alt="GFWL Disabler">
+<img src="images/GFWL%20Disabler.png" alt="GFWL Disabler">
 </div>
 <div class="title">Figure 6. GFWL Disabler</div>
 </div>
@@ -374,7 +374,7 @@
 <p>Of course, you want to remove GFWL buttons in the game.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/GFWL%20Remove%20Fallout%203%20buttons.png" alt="GFWL Remove Fallout 3 buttons">
+<img src="images/GFWL%20Remove%20Fallout%203%20buttons.png" alt="GFWL Remove Fallout 3 buttons">
 </div>
 <div class="title">Figure 7. GFWL Remove Fallout 3 buttons</div>
 </div>
@@ -383,7 +383,7 @@
 <p>We have our first patch!</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/GFWL%20Disabled.png" alt="GFWL Disabled">
+<img src="images/GFWL%20Disabled.png" alt="GFWL Disabled">
 </div>
 <div class="title">Figure 8. GFWL Disabled</div>
 </div>
@@ -392,7 +392,7 @@
 <p>Notice the absent <em>LIVE</em> option in the main menu screen:</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20main%20menu%20with%20no%20LIVE.png" alt="Fallout 3 main menu with no LIVE">
+<img src="images/Fallout%203%20main%20menu%20with%20no%20LIVE.png" alt="Fallout 3 main menu with no LIVE">
 </div>
 <div class="title">Figure 9. Fallout 3 main menu with no LIVE</div>
 </div>
@@ -438,7 +438,7 @@
 <p>Run the file <code>Updated_Unofficial_Fallout3_Patch-19122-2-2.exe</code> (or something like that) to show the welcome window.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%201.png" alt="UF3P Welcome window">
+<img src="images/Unofficial%20Fallout%203%20Patch%201.png" alt="UF3P Welcome window">
 </div>
 <div class="title">Figure 10. UF3P Welcome window</div>
 </div>
@@ -447,7 +447,7 @@
 <p>Accept the license agreement.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%202.png" alt="UF3P License agreement">
+<img src="images/Unofficial%20Fallout%203%20Patch%202.png" alt="UF3P License agreement">
 </div>
 <div class="title">Figure 11. UF3P License agreement</div>
 </div>
@@ -456,7 +456,7 @@
 <p>The program shows the patch notes. These are important, as they clearly point out that you should have the GOTY version of the game, with all DLC to take full advantage of the patch.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%203.png" alt="UF3P Patch notes">
+<img src="images/Unofficial%20Fallout%203%20Patch%203.png" alt="UF3P Patch notes">
 </div>
 <div class="title">Figure 12. UF3P Patch notes</div>
 </div>
@@ -465,7 +465,7 @@
 <p>Choose the location of <em>Fallout 3</em>. The program usually picks the correct folder right off the bat.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%204.png" alt="UF3P Fallout 3 location">
+<img src="images/Unofficial%20Fallout%203%20Patch%204.png" alt="UF3P Fallout 3 location">
 </div>
 <div class="title">Figure 13. UF3P Fallout 3 location</div>
 </div>
@@ -474,7 +474,7 @@
 <p>Select the desired patch components. You should keep the default settings (all DLC and several minor but useful fixes).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%205.png" alt="UF3P Component selection">
+<img src="images/Unofficial%20Fallout%203%20Patch%205.png" alt="UF3P Component selection">
 </div>
 <div class="title">Figure 14. UF3P Component selection</div>
 </div>
@@ -483,7 +483,7 @@
 <p>Choose the menu entry location in the Start Menu folder.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%206.png" alt="UF3P Start menu folder">
+<img src="images/Unofficial%20Fallout%203%20Patch%206.png" alt="UF3P Start menu folder">
 </div>
 <div class="title">Figure 15. UF3P Start menu folder</div>
 </div>
@@ -492,7 +492,7 @@
 <p>The program shows the installation summary. Just press <em>Install</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%207.png" alt="UF3P Installation summary">
+<img src="images/Unofficial%20Fallout%203%20Patch%207.png" alt="UF3P Installation summary">
 </div>
 <div class="title">Figure 16. UF3P Installation summary</div>
 </div>
@@ -501,7 +501,7 @@
 <p>You should then see this window to be happy. Otherwise, you should be very, very sad (really).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%208.png" alt="UF3P Status check">
+<img src="images/Unofficial%20Fallout%203%20Patch%208.png" alt="UF3P Status check">
 </div>
 <div class="title">Figure 17. UF3P Status check</div>
 </div>
@@ -510,7 +510,7 @@
 <p>Here we go! The installation takes a while, because the patch moves around a lot of files.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%209.png" alt="UF3P Installation progress">
+<img src="images/Unofficial%20Fallout%203%20Patch%209.png" alt="UF3P Installation progress">
 </div>
 <div class="title">Figure 18. UF3P Installation progress</div>
 </div>
@@ -519,7 +519,7 @@
 <p>When the installation finishes, the program shows a dialog with some techno-gibberish speak. Fear not! <em>Fallout 3</em> <a href="http://www.sevenforums.com/gaming/20199-fallout-3-windows-7-w-quad-core.html">crashes if running in a box with multiple cores</a>, but the patch fixes the configuration options automatically for you. Click <em>Yes</em>, of course.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%2010.png" alt="UF3P Multicore fix">
+<img src="images/Unofficial%20Fallout%203%20Patch%2010.png" alt="UF3P Multicore fix">
 </div>
 <div class="title">Figure 19. UF3P Multicore fix</div>
 </div>
@@ -528,7 +528,7 @@
 <p>Happy ending! The installation is finished.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Unofficial%20Fallout%203%20Patch%2011.png" alt="UF3P Happy ending">
+<img src="images/Unofficial%20Fallout%203%20Patch%2011.png" alt="UF3P Happy ending">
 </div>
 <div class="title">Figure 20. UF3P Happy ending</div>
 </div>
@@ -549,7 +549,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LOOT%20first%20run%20after%20UF3P.png" alt="LOOT first run after UF3P">
+<img src="images/LOOT%20first%20run%20after%20UF3P.png" alt="LOOT first run after UF3P">
 </div>
 <div class="title">Figure 21. LOOT first run after UF3P</div>
 </div>
@@ -558,7 +558,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LOOT%20after%20sorting.png" alt="LOOT after sorting">
+<img src="images/LOOT%20after%20sorting.png" alt="LOOT after sorting">
 </div>
 <div class="title">Figure 22. LOOT after sorting</div>
 </div>
@@ -601,7 +601,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20first%20run.png" alt="Fallout 3 first run">
+<img src="images/Fallout%203%20first%20run.png" alt="Fallout 3 first run">
 </div>
 <div class="title">Figure 23. Fallout 3 first run</div>
 </div>
@@ -660,7 +660,7 @@
 <p>Fire up FO3Edit. The tool does a good job detecting <em>Fallout 3</em> data folder, thus showing all the data files we are using so far.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20master-plugin%20selection.png" alt="FO3Edit master-plugin selection">
+<img src="images/FO3Edit%20master-plugin%20selection.png" alt="FO3Edit master-plugin selection">
 </div>
 <div class="title">Figure 24. FO3Edit master-plugin selection</div>
 </div>
@@ -669,7 +669,7 @@
 <p>Right-click on the floating window and select <em>Select none</em>. We are going to choose the files to clean, one by one.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20selecting%20none.png" alt="FO3Edit selecting none">
+<img src="images/FO3Edit%20selecting%20none.png" alt="FO3Edit selecting none">
 </div>
 <div class="title">Figure 25. FO3Edit selecting none</div>
 </div>
@@ -685,7 +685,7 @@
 <p>The data file you are going to clean (for example, <code>Anchorage.esm</code>).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20selecting%20files.png" alt="FO3Edit selecting files">
+<img src="images/FO3Edit%20selecting%20files.png" alt="FO3Edit selecting files">
 </div>
 <div class="title">Figure 26. FO3Edit selecting files</div>
 </div>
@@ -697,7 +697,7 @@
 <p>After a while, depending of the size of the data file, the tool finishes loading the data, plus the <code>Fallout3.exe</code> executable itself. Wait for the message "Background Loader: finished" to appear in the <em>Messages</em> panel.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20file%20loaded.png" alt="FO3Edit file loaded">
+<img src="images/FO3Edit%20file%20loaded.png" alt="FO3Edit file loaded">
 </div>
 <div class="title">Figure 27. FO3Edit file loaded</div>
 </div>
@@ -706,7 +706,7 @@
 <p>Right-click on the <code>Anchorage.esm</code> node in the left panel tree and select <em>Apply filter for cleaning</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20apply%20filter%20for%20cleaning.png" alt="FO3Edit apply filter for cleaning">
+<img src="images/FO3Edit%20apply%20filter%20for%20cleaning.png" alt="FO3Edit apply filter for cleaning">
 </div>
 <div class="title">Figure 28. FO3Edit apply filter for cleaning</div>
 </div>
@@ -715,7 +715,7 @@
 <p>The filtering may take a little while, depending on how big and dirty the file is. When the filtering is completed, a line with the heading "[Filtering done]" appears in the <em>Messages</em> panel. The tree in the left panel shows the files with fancy colors which you don&#8217;t have to give a fuck, unless you want to delve deeper into the inner workings of the mods.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20after%20filtering.png" alt="FO3Edit after filtering">
+<img src="images/FO3Edit%20after%20filtering.png" alt="FO3Edit after filtering">
 </div>
 <div class="title">Figure 29. FO3Edit after filtering</div>
 </div>
@@ -724,7 +724,7 @@
 <p>First, we are going to remove ITM (<em>Identical to Master</em>) records. They are not going to crash the game, but they take up space, and trust me, when you get the I-am-going-to-install-every-fancy-mod-available spree, you will need as much space as you can get. Right-click on the <code>Anchorage.esm</code> node in the left panel tree and select <em>Remove "Identical to Master" records</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20remove%20ITM%20records.png" alt="FO3Edit remove ITM records">
+<img src="images/FO3Edit%20remove%20ITM%20records.png" alt="FO3Edit remove ITM records">
 </div>
 <div class="title">Figure 30. FO3Edit remove ITM records</div>
 </div>
@@ -733,7 +733,7 @@
 <p>Every time you try to change a data file, a big warning appears. But, as seasoned hard-ass mod installers, we are sure as hell of what we are doing. Aren&#8217;t we?</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20warning.png" alt="FO3Edit warning">
+<img src="images/FO3Edit%20warning.png" alt="FO3Edit warning">
 </div>
 <div class="title">Figure 31. FO3Edit warning</div>
 </div>
@@ -742,7 +742,7 @@
 <p>After a little while, a message shows up in the <em>Messages</em> panel, reporting 43696 records processed and 54 records removed (don&#8217;t worry if the numbers don&#8217;t match; your setup may be slightly different).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20ITM%20records%20deleted.png" alt="FO3Edit ITM records deleted">
+<img src="images/FO3Edit%20ITM%20records%20deleted.png" alt="FO3Edit ITM records deleted">
 </div>
 <div class="title">Figure 32. FO3Edit ITM records deleted</div>
 </div>
@@ -751,7 +751,7 @@
 <p>Next, we are going to undelete and disable deleted references&#8230;&#8203; Unlike ITM records, which can be considered mostly harmless, deleted references can (and will) fuck up your game, because they are references to objects that <em>are supposed to be in the game</em>, but they no longer are, <em>and no one has marked them as disabled</em>. So, any mod using a deleted but not disabled reference is going to eventually crash your system. We are talking serious shit here. To get rid of these nasty sons of a bitch, right click on the <code>Anchorage.esm</code> node in the left panel tree and select <em>Undelete and Disable References</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20undelete%20and%20disable%20references.png" alt="FO3Edit undelete and disable references">
+<img src="images/FO3Edit%20undelete%20and%20disable%20references.png" alt="FO3Edit undelete and disable references">
 </div>
 <div class="title">Figure 33. FO3Edit undelete and disable references</div>
 </div>
@@ -760,7 +760,7 @@
 <p>A bit of processing again, and we have another message in the right panel, reporting 43642 records processed and 10 undeleted records.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20after%20undeleting%20and%20disabling.png" alt="FO3Edit after undeleting and disabling">
+<img src="images/FO3Edit%20after%20undeleting%20and%20disabling.png" alt="FO3Edit after undeleting and disabling">
 </div>
 <div class="title">Figure 34. FO3Edit after undeleting and disabling</div>
 </div>
@@ -769,7 +769,7 @@
 <p>Job done! We just need to save the modified data file. To do that, just click on the close button of the tool window. A pop-up window should appear with <em>just one file</em>, the one you have been tinkering with (<code>Anchorage.esm</code>, in this case). If more than one file is shown, press <kbd>ESC</kbd> or click on the close button and start over again, because you surely screwed up at some point in the process. Anyway, make sure that the option <em>Backup plugins</em> is selected before clicking <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20save%20changed%20files.png" alt="FO3Edit save changed files">
+<img src="images/FO3Edit%20save%20changed%20files.png" alt="FO3Edit save changed files">
 </div>
 <div class="title">Figure 35. FO3Edit save changed files</div>
 </div>
@@ -787,7 +787,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LOOT%20after%20cleaning.png" alt="LOOT after cleaning">
+<img src="images/LOOT%20after%20cleaning.png" alt="LOOT after cleaning">
 </div>
 <div class="title">Figure 36. LOOT after cleaning</div>
 </div>
@@ -796,7 +796,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20first%20patched%20run.png" alt="Fallout 3 first patched run">
+<img src="images/Fallout%203%20first%20patched%20run.png" alt="Fallout 3 first patched run">
 </div>
 <div class="title">Figure 37. Fallout 3 first patched run</div>
 </div>
@@ -839,7 +839,7 @@
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20testing%20the%20console.png" alt="Fallout 3 testing the console">
+<img src="images/Fallout%203%20testing%20the%20console.png" alt="Fallout 3 testing the console">
 </div>
 <div class="title">Figure 38. Fallout 3 testing the console</div>
 </div>
@@ -900,7 +900,7 @@
 <p>Run <code>START.BAT</code> in <code>[%LAA_FOLDER%]</code>. A console window will appear, reporting that the patching is about to start. Press any key.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LAA%20Enabler%20reminder.png" alt="LAA Enabler">
+<img src="images/LAA%20Enabler%20reminder.png" alt="LAA Enabler">
 </div>
 <div class="title">Figure 39. LAA Enabler</div>
 </div>
@@ -909,7 +909,7 @@
 <p>Several options are shown. We want to press <kbd>A</kbd> to add the LAA feature to <em>Fallout 3</em> executable.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LAA%20Enabler%20options.png" alt="LAA Enabler options">
+<img src="images/LAA%20Enabler%20options.png" alt="LAA Enabler options">
 </div>
 <div class="title">Figure 40. LAA Enabler options</div>
 </div>
@@ -918,7 +918,7 @@
 <p>LAA Enabler patches the executable and happily informs us about it. Press any key.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LAA%20Enabler%20successful.png" alt="LAA Enabler successful">
+<img src="images/LAA%20Enabler%20successful.png" alt="LAA Enabler successful">
 </div>
 <div class="title">Figure 41. LAA Enabler successful</div>
 </div>
@@ -991,7 +991,7 @@
 <p>Rename the shortcut to whatever name you feel comfortable with. I go with <em>Fallout 3</em>, because I keep the older shortcut, using the launcher, to configure the game, thus renaming it to <em>Fallout 3 (config)</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20launch%20shortcuts.png" alt="Fallout 3 launch shortcuts">
+<img src="images/Fallout%203%20launch%20shortcuts.png" alt="Fallout 3 launch shortcuts">
 </div>
 <div class="title">Figure 42. Fallout 3 launch shortcuts</div>
 </div>
@@ -1003,7 +1003,7 @@
 <p>Right-click on the shortcut icon and select <em>Properties</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20properties.png" alt="Fallout 3 shortcut properties">
+<img src="images/Fallout%203%20shortcut%20properties.png" alt="Fallout 3 shortcut properties">
 </div>
 <div class="title">Figure 43. Fallout 3 shortcut properties</div>
 </div>
@@ -1012,7 +1012,7 @@
 <p>In the <em>Shortcut</em> tab, select the option <em>Change icon&#8230;&#8203;</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20change%20icon.png" alt="Fallout 3 shortcut change icon">
+<img src="images/Fallout%203%20shortcut%20change%20icon.png" alt="Fallout 3 shortcut change icon">
 </div>
 <div class="title">Figure 44. Fallout 3 shortcut change icon</div>
 </div>
@@ -1021,7 +1021,7 @@
 <p>The system dutifully informs you that <code>fose_loader.exe</code> (the executable the shortcut refers to) does not contain any available icon. Click <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20no%20default%20icon.png" alt="Fallout 3 shortcut no default icon">
+<img src="images/Fallout%203%20shortcut%20no%20default%20icon.png" alt="Fallout 3 shortcut no default icon">
 </div>
 <div class="title">Figure 45. Fallout 3 shortcut no default icon</div>
 </div>
@@ -1030,7 +1030,7 @@
 <p>The system shows a floating window where you could select one of the shitty system default icons. Just click on <em>Browse</em>&#8230;&#8203;</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20select%20icon.png" alt="Fallout 3 shortcut select icon">
+<img src="images/Fallout%203%20shortcut%20select%20icon.png" alt="Fallout 3 shortcut select icon">
 </div>
 <div class="title">Figure 46. Fallout 3 shortcut select icon</div>
 </div>
@@ -1039,7 +1039,7 @@
 <p>Select the <code>.ico</code> file you downloaded before and click <em>Open</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20open%20icon.png" alt="Fallout 3 shortcut open icon">
+<img src="images/Fallout%203%20shortcut%20open%20icon.png" alt="Fallout 3 shortcut open icon">
 </div>
 <div class="title">Figure 47. Fallout 3 shortcut open icon</div>
 </div>
@@ -1048,7 +1048,7 @@
 <p>Back to the icon selection window, click on <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20icon%20selected.png" alt="Fallout 3 shortcut icon selected">
+<img src="images/Fallout%203%20shortcut%20icon%20selected.png" alt="Fallout 3 shortcut icon selected">
 </div>
 <div class="title">Figure 48. Fallout 3 shortcut icon selected</div>
 </div>
@@ -1057,7 +1057,7 @@
 <p>Back to the properties window, click on <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20shortcut%20properties%20final.png" alt="Fallout 3 shortcut properties final">
+<img src="images/Fallout%203%20shortcut%20properties%20final.png" alt="Fallout 3 shortcut properties final">
 </div>
 <div class="title">Figure 49. Fallout 3 shortcut properties final</div>
 </div>
@@ -1066,7 +1066,7 @@
 <p><em>Et voila!</em> We have now two great-looking icons to launch <em>Fallout 3</em>, one to configure it and the other to actually launch a mod-friendly version of the game.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20launch%20shortcuts%20final.png" alt="Fallout 3 launch shortcuts final">
+<img src="images/Fallout%203%20launch%20shortcuts%20final.png" alt="Fallout 3 launch shortcuts final">
 </div>
 <div class="title">Figure 50. Fallout 3 launch shortcuts final</div>
 </div>
@@ -1075,7 +1075,7 @@
 <p>We are going to test that FOSE is correctly installed, and for that, launch the game with the new shortcut. In the main menu screen, activate the console and write <code>GetFOSEVersion</code>. You should get something like <code>FOSE version: 1</code>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FOSE%20installed.png" alt="Fallout 3 FOSE installed">
+<img src="images/Fallout%203%20FOSE%20installed.png" alt="Fallout 3 FOSE installed">
 </div>
 <div class="title">Figure 51. Fallout 3 FOSE installed</div>
 </div>
@@ -1124,7 +1124,7 @@
 <p>Run NMM. If this is the first time you do so, NMM searches for the games it knows of, modding-wise. In this context, we are only interested in <em>Fallout 3</em>, so as soon as NMM finds it, we should confirm the location (with the green tick mark under the name of the game) and then click on <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20searching%20for%20games.png" alt="NMM searching for games">
+<img src="images/NMM%20searching%20for%20games.png" alt="NMM searching for games">
 </div>
 <div class="title">Figure 52. NMM searching for games</div>
 </div>
@@ -1133,7 +1133,7 @@
 <p>NMM shows then a game selection window, with a list of games which mods NMM is managing. Select <em>Fallout 3</em> and click on <em>Ok</em>. You can select <em>Don&#8217;t ask me next time</em>, if you feel like to. However, you can change the game once you start NMM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20select%20Fallout%203.png" alt="NMM select Fallout 3">
+<img src="images/NMM%20select%20Fallout%203.png" alt="NMM select Fallout 3">
 </div>
 <div class="title">Figure 53. NMM select Fallout 3</div>
 </div>
@@ -1142,7 +1142,7 @@
 <p>NMM needs to know the paths where the mods are going to be stored before installing them, and so it reminds you. Click on <em>Ok</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20setup%20paths.png" alt="NMM setup paths">
+<img src="images/NMM%20setup%20paths.png" alt="NMM setup paths">
 </div>
 <div class="title">Figure 54. NMM setup paths</div>
 </div>
@@ -1151,7 +1151,7 @@
 <p>NMM has already made sensible choices for you, but feel free to change the suggested paths if you want. When you are finished, click <em>Finish</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20confirm%20paths.png" alt="NMM confirm paths">
+<img src="images/NMM%20confirm%20paths.png" alt="NMM confirm paths">
 </div>
 <div class="title">Figure 55. NMM confirm paths</div>
 </div>
@@ -1160,7 +1160,7 @@
 <p>NMM may organize your mods in categories, but I don&#8217;t find that useful. It might be if you have a fuckload of mods, but then, I would recommend long holidays in a quiet and computer-free place, for the sake of your sanity. I would say no in the next window, but it&#8217;s up to you.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20no%20categories.png" alt="NMM no categories">
+<img src="images/NMM%20no%20categories.png" alt="NMM no categories">
 </div>
 <div class="title">Figure 56. NMM no categories</div>
 </div>
@@ -1169,7 +1169,7 @@
 <p>Finally, the programs is started, in the <em>Mods</em> tab.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20mods%20tab.png" alt="NMM mods tab">
+<img src="images/NMM%20mods%20tab.png" alt="NMM mods tab">
 </div>
 <div class="title">Figure 57. NMM mods tab</div>
 </div>
@@ -1178,7 +1178,7 @@
 <p>If you take a look at the <em>Plugins tab</em>, you can check the presence of the unofficial patch, at the bottom of the load order, as expected.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20plugins%20tab.png" alt="NMM plugins tab">
+<img src="images/NMM%20plugins%20tab.png" alt="NMM plugins tab">
 </div>
 <div class="title">Figure 58. NMM plugins tab</div>
 </div>
@@ -1187,7 +1187,7 @@
 <p>Open <a href="http://www.nexusmods.com/fallout3/mods/8886/"><em>Fallout Stutter Remover</em></a> mod page in your browser and navigate to the <em>Files</em> tab. We need the latest version (4.1.36 as of this writing) and nothing else. Download this with NMM. The mod is fairly small, so it takes a breeze to download. When downloaded, you should see something like this in NMM (adjust the user interface as necessary).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FSR%20downloaded.png" alt="NMM FSR downloaded">
+<img src="images/NMM%20FSR%20downloaded.png" alt="NMM FSR downloaded">
 </div>
 <div class="title">Figure 59. NMM FSR downloaded</div>
 </div>
@@ -1196,7 +1196,7 @@
 <p>Double-click on the name of the FSR mod in the main panel to install it. Now, you should see a little green check mark to the left of the name of the mod, along with a message in the <em>Mod Activation Queue</em> panel reporting that the installation is complete.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FSR%20installation%20complete.png" alt="NMM FSR installation">
+<img src="images/NMM%20FSR%20installation%20complete.png" alt="NMM FSR installation">
 </div>
 <div class="title">Figure 60. NMM FSR installation</div>
 </div>
@@ -1248,7 +1248,7 @@
 <p>Create a shortcut to <code>Fallout_Fullscreen.exe</code> wherever you want, and rename it to <em>Fallout 3 (fullscreen)</em>, for example.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20launch%20shortcuts%20with%20fullscreen.png" alt="Fallout 3 launch shortcuts with fullscreen">
+<img src="images/Fallout%203%20launch%20shortcuts%20with%20fullscreen.png" alt="Fallout 3 launch shortcuts with fullscreen">
 </div>
 <div class="title">Figure 61. Fallout 3 launch shortcuts with fullscreen</div>
 </div>
@@ -1257,7 +1257,7 @@
 <p>Run the launcher (<em>Fallout 3 (config)</em>, remember?), and select <em>Options</em>. Take note of your current resolution.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20options.png" alt="Fallout 3 options">
+<img src="images/Fallout%203%20options.png" alt="Fallout 3 options">
 </div>
 <div class="title">Figure 62. Fallout 3 options</div>
 </div>
@@ -1266,7 +1266,7 @@
 <p>Mark <em>Windowed mode</em> and change the resolution to the previous one (every time you change to windowed mode and back, the resolution combo resets). Click <em>Ok</em> and exit the launcher.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20options%20windowed.png" alt="Fallout 3 options windowed">
+<img src="images/Fallout%203%20options%20windowed.png" alt="Fallout 3 options windowed">
 </div>
 <div class="title">Figure 63. Fallout 3 options windowed</div>
 </div>
@@ -1328,7 +1328,7 @@
 <p>Launch the game. When the main menu appears, click on <em>Settings</em> and then <em>Gameplay</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20gameplay%20settings.png" alt="Fallout 3 gameplay settings">
+<img src="images/Fallout%203%20gameplay%20settings.png" alt="Fallout 3 gameplay settings">
 </div>
 <div class="title">Figure 64. Fallout 3 gameplay settings</div>
 </div>
@@ -1337,7 +1337,7 @@
 <p>Disable all three options (<em>Save On Rest</em>, <em>Save On Wait</em> and <em>Save On Travel</em>).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20autosave%20disabled.png" alt="Fallout 3 autosave disabled">
+<img src="images/Fallout%203%20autosave%20disabled.png" alt="Fallout 3 autosave disabled">
 </div>
 <div class="title">Figure 65. Fallout 3 autosave disabled</div>
 </div>
@@ -1349,7 +1349,7 @@
 <p>Download <em>CASM_v1_2_3</em> file from CASM using NMM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20CASM%20downloaded.png" alt="NMM CASM downloaded">
+<img src="images/NMM%20CASM%20downloaded.png" alt="NMM CASM downloaded">
 </div>
 <div class="title">Figure 66. NMM CASM downloaded</div>
 </div>
@@ -1358,7 +1358,7 @@
 <p>Activate CASM double-clicking on the mod name.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20CASM%20installation%20complete.png" alt="NMM CASM installation complete">
+<img src="images/NMM%20CASM%20installation%20complete.png" alt="NMM CASM installation complete">
 </div>
 <div class="title">Figure 67. NMM CASM installation complete</div>
 </div>
@@ -1367,7 +1367,7 @@
 <p>Check that CASM is loaded at the bottom of the mod stack in the <em>Plugins</em> tab of NMM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20CASM%20loaded%20last.png" alt="NMM CASM loaded last">
+<img src="images/NMM%20CASM%20loaded%20last.png" alt="NMM CASM loaded last">
 </div>
 <div class="title">Figure 68. NMM CASM loaded last</div>
 </div>
@@ -1376,7 +1376,7 @@
 <p>Close NMM and run LOOT. Click on the <em>Sort Plugins</em> icon to fix the load order. Notice that CASM still sits at the bottom, and no conflicts are detected (this step is fairly unnecessary, but you need to get used to routinely rearrange your load order).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LOOT%20after%20installing%20CASM.png" alt="LOOT after installing CASM">
+<img src="images/LOOT%20after%20installing%20CASM.png" alt="LOOT after installing CASM">
 </div>
 <div class="title">Figure 69. LOOT after installing CASM</div>
 </div>
@@ -1385,7 +1385,7 @@
 <p>CASM is configurable through an in-game option in your Pip-Boy 3000 (you will get your own Pip-Boy at the age of 10). Fire up your Pip-Boy by pressing <kbd>TAB</kbd> and navigate to the <em>Items</em> button, <em>Aid</em> section. You will see an "item" called <em>CASM Options Menu</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20CASM%20option.png" alt="Fallout 3 CASM option">
+<img src="images/Fallout%203%20CASM%20option.png" alt="Fallout 3 CASM option">
 </div>
 <div class="title">Figure 70. Fallout 3 CASM option</div>
 </div>
@@ -1394,7 +1394,7 @@
 <p>Click on the CASM item <em>and then exit the Pip-Boy</em> by pressing again <kbd>TAB</kbd> (yeah, not the most intuitive thing in the world). A screen with CASM settings is shown. There are a lot of options for you to configure, although the default settings are pretty good to go.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20CASM%20settings.png" alt="Fallout 3 CASM settings">
+<img src="images/Fallout%203%20CASM%20settings.png" alt="Fallout 3 CASM settings">
 </div>
 <div class="title">Figure 71. Fallout 3 CASM settings</div>
 </div>
@@ -1446,7 +1446,7 @@
 <p>Download the file <em>V_4</em> with NMM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Better%20Game%20Performance%20downloaded.png" alt="NMM Better Game Performance downloaded">
+<img src="images/NMM%20Better%20Game%20Performance%20downloaded.png" alt="NMM Better Game Performance downloaded">
 </div>
 <div class="title">Figure 72. NMM Better Game Performance downloaded</div>
 </div>
@@ -1455,7 +1455,7 @@
 <p>Activate the mod by double-clicking on its name. The mod will be installed with no hiccups.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Better%20Game%20Performance%20installed.png" alt="NMM Better Game Performance installed">
+<img src="images/NMM%20Better%20Game%20Performance%20installed.png" alt="NMM Better Game Performance installed">
 </div>
 <div class="title">Figure 73. NMM Better Game Performance installed</div>
 </div>
@@ -1653,7 +1653,7 @@
 <p>Start NMM, go to the <em>Mods</em> tab and click on the green plus sign to add mod from file.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Adding%20mod%20from%20file.png" alt="NMM Adding mod from file">
+<img src="images/NMM%20Adding%20mod%20from%20file.png" alt="NMM Adding mod from file">
 </div>
 <div class="title">Figure 74. NMM Adding mod from file</div>
 </div>
@@ -1662,7 +1662,7 @@
 <p>In the file selector that appears, navigate to the location of <code>darNifiedUI F3 Alpha11.zip</code> and choose it.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20DUIF3%20files%20loaded.png" alt="NMM DUIF3 files loaded">
+<img src="images/NMM%20DUIF3%20files%20loaded.png" alt="NMM DUIF3 files loaded">
 </div>
 <div class="title">Figure 75. NMM DUIF3 files loaded</div>
 </div>
@@ -1671,7 +1671,7 @@
 <p>Activate the mod file by double-clicking on it. Eventually, you will be asked to confirm if you want to use the fonts provided with DUIF3. As crazy as it sounds, you want to say <em>No</em>, for now.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20DUIF3%20font%20config%20confirmation.png" alt="NMM DUIF3 font config confirmation">
+<img src="images/NMM%20DUIF3%20font%20config%20confirmation.png" alt="NMM DUIF3 font config confirmation">
 </div>
 <div class="title">Figure 76. NMM DUIF3 font config confirmation</div>
 </div>
@@ -1680,7 +1680,7 @@
 <p>DUIF3 is finally installed.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20DUIF3%20installed.png" alt="NMM DUIF3 installed">
+<img src="images/NMM%20DUIF3%20installed.png" alt="NMM DUIF3 installed">
 </div>
 <div class="title">Figure 77. NMM DUIF3 installed</div>
 </div>
@@ -1689,7 +1689,7 @@
 <p>Just in case, use LOOT to sort your load order session. It is not really necessary, as DUIF3 sits on the bottom, but you need to flex your muscles now and then.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/LOOT%20DUIF3.png" alt="LOOT DUIF3">
+<img src="images/LOOT%20DUIF3.png" alt="LOOT DUIF3">
 </div>
 <div class="title">Figure 78. LOOT DUIF3</div>
 </div>
@@ -1744,7 +1744,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>As a collateral effect, <em>LIVE</em> button in the main screen is enabled again, but fear not! This is nothing but DUIF3 taking full control of your interface settings in a somewhat standard way. GFWL is still disabled.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20DUIF3%20installed.png" alt="Fallout 3 DUIF3 installed">
+<img src="images/Fallout%203%20DUIF3%20installed.png" alt="Fallout 3 DUIF3 installed">
 </div>
 <div class="title">Figure 79. Fallout 3 DUIF3 installed</div>
 </div>
@@ -1753,7 +1753,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>However, I don&#8217;t like that option to be visible, so open the file <code>DUIF3Settings.xml</code> in <code>[%STEAM_HOME%\steamapps\common\Fallout 3 goty\Data\Menus\prefabs]</code> with your favorite text editor. Change the option <code>&lt;_sm_hideLIVE /&gt;</code> to 1. Save and exit. Launch the game to check the absent LIVE option.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20DUIF3%20absent%20LIVE%20option.png" alt="Fallout 3 DUIF3 absent LIVE option">
+<img src="images/Fallout%203%20DUIF3%20absent%20LIVE%20option.png" alt="Fallout 3 DUIF3 absent LIVE option">
 </div>
 <div class="title">Figure 80. Fallout 3 DUIF3 absent LIVE option</div>
 </div>
@@ -1762,7 +1762,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Start a new game or continue a previous one, and check the smaller HUD elements, including new information about date and time in the upper-right corner of the screen.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20DUIF3%20small%20HUD.png" alt="Fallout 3 DUIF3 small HUD">
+<img src="images/Fallout%203%20DUIF3%20small%20HUD.png" alt="Fallout 3 DUIF3 small HUD">
 </div>
 <div class="title">Figure 81. Fallout 3 DUIF3 small HUD</div>
 </div>
@@ -1771,7 +1771,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>If you press <kbd>ESC</kbd> in game, you will see a new option at the right to configure DUIF3.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20DUIF3%20ingame%20option.png" alt="Fallout 3 DUIF3 ingame option">
+<img src="images/Fallout%203%20DUIF3%20ingame%20option.png" alt="Fallout 3 DUIF3 ingame option">
 </div>
 <div class="title">Figure 82. Fallout 3 DUIF3 ingame option</div>
 </div>
@@ -1780,7 +1780,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>There are a lot of settings for you to configure, adjusting the HUD to your liking.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20DUIF3%20settings.png" alt="Fallout 3 DUIF3 settings">
+<img src="images/Fallout%203%20DUIF3%20settings.png" alt="Fallout 3 DUIF3 settings">
 </div>
 <div class="title">Figure 83. Fallout 3 DUIF3 settings</div>
 </div>
@@ -1832,7 +1832,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and press <kbd>F6</kbd> in-game to show the aHUD settings menu.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20aHUD%20settings.png" alt="Fallout 3 aHUD settings">
+<img src="images/Fallout%203%20aHUD%20settings.png" alt="Fallout 3 aHUD settings">
 </div>
 <div class="title">Figure 84. Fallout 3 aHUD settings</div>
 </div>
@@ -1860,7 +1860,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Select the items you want to relocate and move them around using the numpad arrow keys (that is <kbd>Num8</kbd>, <kbd>Num2</kbd>, <kbd>Num4</kbd> and <kbd>Num6</kbd> for up, down, left and right, respectively). The <kbd>R</kbd> and <kbd>Num5</kbd> keys are used to reset the current movement operation (be careful; I restarted unintentionally the movement of the compass three times because I am used to the arrow keys, so I insisted on using <kbd>Num5</kbd> as "Down", instead of <kbd>Num2</kbd> <code>¬¬</code>). Any other key finishes the movement operation.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20aHUD%20relocated%20items.png" alt="Fallout 3 aHUD relocated items">
+<img src="images/Fallout%203%20aHUD%20relocated%20items.png" alt="Fallout 3 aHUD relocated items">
 </div>
 <div class="title">Figure 85. Fallout 3 aHUD relocated items</div>
 </div>
@@ -1915,7 +1915,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and notice the absence of HUD elements on screen.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20iHUD%20default.png" alt="Fallout 3 iHUD default">
+<img src="images/Fallout%203%20iHUD%20default.png" alt="Fallout 3 iHUD default">
 </div>
 <div class="title">Figure 86. Fallout 3 iHUD default</div>
 </div>
@@ -1924,7 +1924,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Keep the <kbd>I</kbd> key pressed a few moments. The iHUD settings menu will appear.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20iHUD%20settings.png" alt="Fallout 3 iHUD settings">
+<img src="images/Fallout%203%20iHUD%20settings.png" alt="Fallout 3 iHUD settings">
 </div>
 <div class="title">Figure 87. Fallout 3 iHUD settings</div>
 </div>
@@ -1994,7 +1994,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Add the two <em>Fallout New Vegas</em> mods to NMM using the button <em>Add mod from file</em>. We will have all the files ready in NMM by then.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20cleaning%20Pip-Boy%20mods.png" alt="NMM cleaning Pip-Boy mods">
+<img src="images/NMM%20cleaning%20Pip-Boy%20mods.png" alt="NMM cleaning Pip-Boy mods">
 </div>
 <div class="title">Figure 88. NMM cleaning Pip-Boy mods</div>
 </div>
@@ -2031,7 +2031,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Standard compatibility.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Clean%20Pip-Boy%20options.png" alt="NMM Clean Pip-Boy options">
+<img src="images/NMM%20Clean%20Pip-Boy%20options.png" alt="NMM Clean Pip-Boy options">
 </div>
 <div class="title">Figure 89. NMM Clean Pip-Boy options</div>
 </div>
@@ -2046,13 +2046,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and pull out your Pip-Boy with the <kbd>TAB</kbd> key. You will notice a piece of junk hitting your face at full speed, and also a dramatic change in the cleanliness of the screen. Compare before and after.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Pip-Boy%20before%20retexturing.png" alt="Fallout 3 Pip-Boy before retexturing">
+<img src="images/Fallout%203%20Pip-Boy%20before%20retexturing.png" alt="Fallout 3 Pip-Boy before retexturing">
 </div>
 <div class="title">Figure 90. Fallout 3 Pip-Boy before retexturing</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Pip-Boy%20after%20retexturing.png" alt="Fallout 3 Pip-Boy after retexturing">
+<img src="images/Fallout%203%20Pip-Boy%20after%20retexturing.png" alt="Fallout 3 Pip-Boy after retexturing">
 </div>
 <div class="title">Figure 91. Fallout 3 Pip-Boy after retexturing</div>
 </div>
@@ -2104,7 +2104,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Activate NMM shows a floating window with the installation options for the mod. Choose one map size and brightness (I chose 8k with roads and 50% more brightness, but your mileage may vary). Click on <em>Next</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Better%20High%20Detail%20Map%20and%20Icons%20install%20options.png" alt="NMM Better High Detail Map and Icons install options">
+<img src="images/NMM%20Better%20High%20Detail%20Map%20and%20Icons%20install%20options.png" alt="NMM Better High Detail Map and Icons install options">
 </div>
 <div class="title">Figure 92. NMM Better High Detail Map and Icons install options</div>
 </div>
@@ -2113,7 +2113,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Next window contains the customization options for the mod. I checked "Custom icons" and green markers. It is important <strong>not to check</strong> "Clean Pipboy Screen", because we applied a specific mod to do just that in the previous chapter. Click on <em>Finish</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Better%20High%20Detail%20Map%20and%20Icons%20customization%20options.png" alt="NMM Better High Detail Map and Icons customization options">
+<img src="images/NMM%20Better%20High%20Detail%20Map%20and%20Icons%20customization%20options.png" alt="NMM Better High Detail Map and Icons customization options">
 </div>
 <div class="title">Figure 93. NMM Better High Detail Map and Icons customization options</div>
 </div>
@@ -2128,13 +2128,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game, fire up your Pip-Boy and compare, before and after.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20world%20map%20before.png" alt="Fallout 3 world map before">
+<img src="images/Fallout%203%20world%20map%20before.png" alt="Fallout 3 world map before">
 </div>
 <div class="title">Figure 94. Fallout 3 world map before</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20world%20map%20after.png" alt="Fallout 3 world map after">
+<img src="images/Fallout%203%20world%20map%20after.png" alt="Fallout 3 world map after">
 </div>
 <div class="title">Figure 95. Fallout 3 world map after</div>
 </div>
@@ -2189,7 +2189,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20no%20Pip-Boy%20light.png" alt="Fallout 3 no Pip-Boy light">
+<img src="images/Fallout%203%20no%20Pip-Boy%20light.png" alt="Fallout 3 no Pip-Boy light">
 </div>
 <div class="title">Figure 96. Fallout 3 no Pip-Boy light</div>
 </div>
@@ -2198,7 +2198,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20standard%20light.png" alt="Fallout 3 standard light">
+<img src="images/Fallout%203%20standard%20light.png" alt="Fallout 3 standard light">
 </div>
 <div class="title">Figure 97. Fallout 3 standard light</div>
 </div>
@@ -2207,7 +2207,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20enhanced%20light.png" alt="Fallout 3 enhanced light">
+<img src="images/Fallout%203%20enhanced%20light.png" alt="Fallout 3 enhanced light">
 </div>
 <div class="title">Figure 98. Fallout 3 enhanced light</div>
 </div>
@@ -2381,7 +2381,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>You will need to be in the station&#8217;s range to tune in (<em>Data</em> button, <em>Radio</em> section in your Pip-Boy), but when you do, enjoy the rhythm! <em>Conelrad 640-1240</em> and <em>Existence 2.0</em> will be immediately available right after leaving Vault 101.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20radio%20stations.png" alt="Fallout 3 new radio stations">
+<img src="images/Fallout%203%20new%20radio%20stations.png" alt="Fallout 3 new radio stations">
 </div>
 <div class="title">Figure 99. Fallout 3 new radio stations</div>
 </div>
@@ -2504,7 +2504,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Add <code>FWE_6.03.zip</code> to NMM, like we did before with DarNifiedUI.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FWE%20add%20mod%20from%20file.png" alt="NMM FWE add mod from file">
+<img src="images/NMM%20FWE%20add%20mod%20from%20file.png" alt="NMM FWE add mod from file">
 </div>
 <div class="title">Figure 100. NMM FWE add mod from file</div>
 </div>
@@ -2513,7 +2513,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have all the files ready to install.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FWE%20entries.png" alt="NMM FWE entries">
+<img src="images/NMM%20FWE%20entries.png" alt="NMM FWE entries">
 </div>
 <div class="title">Figure 101. NMM FWE entries</div>
 </div>
@@ -2522,7 +2522,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Double click on <em>FWE - FO3 Wanderers Edition</em> to bring up a window with some options. Leave all default options checked and check <em>Alternate Travel</em>, and maybe <a href="https://sites.google.com/site/fo3wanderersedition/detailed-changes/02combat#TOC-VATS-Tweaks"><em>VATS Halftime</em> and <em>VATS Realtime</em></a> if you feel up to.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FWE%20setup.png" alt="NMM FWE setup">
+<img src="images/NMM%20FWE%20setup.png" alt="NMM FWE setup">
 </div>
 <div class="title">Figure 102. NMM FWE setup</div>
 </div>
@@ -2531,7 +2531,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>The installation takes a while, for the mod is <em>huge</em>&#8230;&#8203;</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FWE%20installing.png" alt="NMM FWE installing">
+<img src="images/NMM%20FWE%20installing.png" alt="NMM FWE installing">
 </div>
 <div class="title">Figure 103. NMM FWE installing</div>
 </div>
@@ -2540,7 +2540,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Finally, the manager notifies us about a successful installation. There shouldn&#8217;t be any conflicts.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20FWE%20installed.png" alt="NMM FWE installed">
+<img src="images/NMM%20FWE%20installed.png" alt="NMM FWE installed">
 </div>
 <div class="title">Figure 104. NMM FWE installed</div>
 </div>
@@ -2583,7 +2583,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>And that&#8217;s it. We have FWE completely installed. Launch the game and start a new game (yes, a new game). At certain point, you may choose between the classic storyline or an alternate start.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20alternate%20start.png" alt="Fallout 3 FWE alternate start">
+<img src="images/Fallout%203%20FWE%20alternate%20start.png" alt="Fallout 3 FWE alternate start">
 </div>
 <div class="title">Figure 105. Fallout 3 FWE alternate start</div>
 </div>
@@ -2592,7 +2592,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>You can assign your skills, perks and even a background story in a terminal right in front of you right after waking up.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20special%20terminal.png" alt="Fallout 3 FWE special terminal">
+<img src="images/Fallout%203%20FWE%20special%20terminal.png" alt="Fallout 3 FWE special terminal">
 </div>
 <div class="title">Figure 106. Fallout 3 FWE special terminal</div>
 </div>
@@ -2601,7 +2601,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>When you have selected the skill set for your journey, just sleep in the mat on the floor and wake up to your new life. After a moment, a dialog will appear talking about <em>Wasteland Explorer</em>, a motorcycle which replaces fast travel (we disabled it, remember?). Enable it for good.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20Wasteland%20Explorer%20enabled.png" alt="Fallout 3 FWE Wasteland Explorer enabled">
+<img src="images/Fallout%203%20FWE%20Wasteland%20Explorer%20enabled.png" alt="Fallout 3 FWE Wasteland Explorer enabled">
 </div>
 <div class="title">Figure 107. Fallout 3 FWE Wasteland Explorer enabled</div>
 </div>
@@ -2610,7 +2610,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>And now we are at it&#8230;&#8203; Remember when we relocated the HUD elements to fit our needs? Well, FWE resets that, so, regrettably, you will have to relocate them again. Notice the new grenade icon on the right lower corner and the primary needs info under the clock.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20HUD%20reset.png" alt="Fallout 3 FWE HUD reset">
+<img src="images/Fallout%203%20FWE%20HUD%20reset.png" alt="Fallout 3 FWE HUD reset">
 </div>
 <div class="title">Figure 108. Fallout 3 FWE HUD reset</div>
 </div>
@@ -2619,7 +2619,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Pull out your Pip-Boy and go to the <em>Items</em> and then <em>Apparel</em>. There it is the option to configure FWE.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20Pip-Boy%20option.png" alt="Fallout 3 FWE Pip-Boy option">
+<img src="images/Fallout%203%20FWE%20Pip-Boy%20option.png" alt="Fallout 3 FWE Pip-Boy option">
 </div>
 <div class="title">Figure 109. Fallout 3 FWE Pip-Boy option</div>
 </div>
@@ -2628,7 +2628,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Click on the option to show the shitload of configurable settings for this mod.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20FWE%20settings.png" alt="Fallout 3 FWE settings">
+<img src="images/Fallout%203%20FWE%20settings.png" alt="Fallout 3 FWE settings">
 </div>
 <div class="title">Figure 110. Fallout 3 FWE settings</div>
 </div>
@@ -2720,7 +2720,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Download <em>Marts Mutant Mod Merged</em> from <a href="http://www.nexusmods.com/fallout3/mods/16787/"><em>The Mergers</em></a> page with NMM. Notice the downloaded files.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20files%20downloaded.png" alt="NMM MMM files downloaded">
+<img src="images/NMM%20MMM%20files%20downloaded.png" alt="NMM MMM files downloaded">
 </div>
 <div class="title">Figure 111. NMM MMM files downloaded</div>
 </div>
@@ -2729,7 +2729,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Activate <em>Martigen&#8217;s Mutant Mod</em> by double-clicking on it. NMM shows a window to select the preferred configuration method. We will choose the in-game menu, as it requires far less tinkering than its ESP counterpart.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20menu%20configuration.png" alt="NMM MMM menu configuration">
+<img src="images/NMM%20MMM%20menu%20configuration.png" alt="NMM MMM menu configuration">
 </div>
 <div class="title">Figure 112. NMM MMM menu configuration</div>
 </div>
@@ -2738,7 +2738,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>In the next window, all the DLC options should be checked, but leave the global options unchecked. More on that later.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20global%20options.png" alt="NMM MMM global options">
+<img src="images/NMM%20MMM%20global%20options.png" alt="NMM MMM global options">
 </div>
 <div class="title">Figure 113. NMM MMM global options</div>
 </div>
@@ -2747,7 +2747,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>MMM overwrites several files from FWE, as it overhauls the monster system in the game. Let it do its magic.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20FWE%20overwrite.png" alt="NMM MMM FWE overwrite">
+<img src="images/NMM%20MMM%20FWE%20overwrite.png" alt="NMM MMM FWE overwrite">
 </div>
 <div class="title">Figure 114. NMM MMM FWE overwrite</div>
 </div>
@@ -2787,7 +2787,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Reopen NMM and activate <em>Paradox Ignition presents The Mergers - Marts Mutant Mod Merged</em> in the <em>Mods</em> tab. The merged patch will ask for permission to overwrite already installed files. Proceed as usual.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20merged%20patch%20overwriting.png" alt="NMM MMM merged patch overwriting">
+<img src="images/NMM%20MMM%20merged%20patch%20overwriting.png" alt="NMM MMM merged patch overwriting">
 </div>
 <div class="title">Figure 115. NMM MMM merged patch overwriting</div>
 </div>
@@ -2812,7 +2812,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>In the <em>Plugins</em> tab, check the presence of the file <code>Mart&#8217;s Mutant Mod.esm</code>, replacing all the files we installed before.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20MMM%20installed.png" alt="NMM MMM installed">
+<img src="images/NMM%20MMM%20installed.png" alt="NMM MMM installed">
 </div>
 <div class="title">Figure 116. NMM MMM installed</div>
 </div>
@@ -2824,7 +2824,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and pull up your Pip-Boy. Navigate to the <em>Items</em> button, <em>Apparel</em> section, where you will see a new entry called <em>MMM Control Panel</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20MMM%20control%20panel%20option.png" alt="Fallout 3 MMM control panel option">
+<img src="images/Fallout%203%20MMM%20control%20panel%20option.png" alt="Fallout 3 MMM control panel option">
 </div>
 <div class="title">Figure 117. Fallout 3 MMM control panel option</div>
 </div>
@@ -2833,7 +2833,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Click on the aforementioned option and wade through the zillions of options to fine-tune your monster-hunting experience.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20MMM%20settings.png" alt="Fallout 3 MMM settings">
+<img src="images/Fallout%203%20MMM%20settings.png" alt="Fallout 3 MMM settings">
 </div>
 <div class="title">Figure 118. Fallout 3 MMM settings</div>
 </div>
@@ -3020,7 +3020,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have a good bunch of mods ready to be installed.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20weapon%20mods%20ready.png" alt="NMM weapon mods ready">
+<img src="images/NMM%20weapon%20mods%20ready.png" alt="NMM weapon mods ready">
 </div>
 <div class="title">Figure 119. NMM weapon mods ready</div>
 </div>
@@ -3063,7 +3063,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Run the game and you will notice the dramatic change when aiming your weapon. <strong>NOW</strong>, this is serious shit.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20sights.png" alt="Fallout 3 new sights">
+<img src="images/Fallout%203%20new%20sights.png" alt="Fallout 3 new sights">
 </div>
 <div class="title">Figure 120. Fallout 3 new sights</div>
 </div>
@@ -3179,7 +3179,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Check all the files are downloaded and ready in NMM. Take into account that <em>Mothership Zeta Crew</em> is <strong>HUGE</strong> (over 1 GB), so be patient and make the most of your time reading online documentation about creating a book using Asciidoc, for example.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20new%20content%20mods.png" alt="NMM new content mods">
+<img src="images/NMM%20new%20content%20mods.png" alt="NMM new content mods">
 </div>
 <div class="title">Figure 121. NMM new content mods</div>
 </div>
@@ -3269,25 +3269,25 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and wait a few moments to see several dialogs to kick-in the missions (except <em>Mothership Zeta Crew</em>, which launches elsewhere).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20quests%20dialog%201.png" alt="Fallout 3 new quests dialog 1">
+<img src="images/Fallout%203%20new%20quests%20dialog%201.png" alt="Fallout 3 new quests dialog 1">
 </div>
 <div class="title">Figure 122. Fallout 3 new quests dialog 1</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20quests%20dialog%202.png" alt="Fallout 3 new quests dialog 2">
+<img src="images/Fallout%203%20new%20quests%20dialog%202.png" alt="Fallout 3 new quests dialog 2">
 </div>
 <div class="title">Figure 123. Fallout 3 new quests dialog 2</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20quests%20dialog%203.png" alt="Fallout 3 new quests dialog 3">
+<img src="images/Fallout%203%20new%20quests%20dialog%203.png" alt="Fallout 3 new quests dialog 3">
 </div>
 <div class="title">Figure 124. Fallout 3 new quests dialog 3</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20quests%20dialog%204.png" alt="Fallout 3 new quests dialog 4">
+<img src="images/Fallout%203%20new%20quests%20dialog%204.png" alt="Fallout 3 new quests dialog 4">
 </div>
 <div class="title">Figure 125. Fallout 3 new quests dialog 4</div>
 </div>
@@ -3296,7 +3296,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>You can check the quests pulling up your Pip-Boy and navigating to the <em>Data</em> section, <em>Notes</em> option. The following notes should be there for you:</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20quests%20notes.png" alt="Fallout 3 new quests notes">
+<img src="images/Fallout%203%20new%20quests%20notes.png" alt="Fallout 3 new quests notes">
 </div>
 <div class="title">Figure 126. Fallout 3 new quests notes</div>
 </div>
@@ -3363,7 +3363,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>You should have the complete <em>Advanced Recon</em> set by now.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Advanced%20Recon%20set.png" alt="NMM Advanced Recon set">
+<img src="images/NMM%20Advanced%20Recon%20set.png" alt="NMM Advanced Recon set">
 </div>
 <div class="title">Figure 127. NMM Advanced Recon set</div>
 </div>
@@ -3403,7 +3403,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>When you activate <em>Advanced Recon Stealth Armor</em>, a pop-up with options will, well, pop up. Leave the options unchanged and click on <em>Install</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Advanced%20Recon%20Stealth%20Armor%20install%20options.png" alt="NMM Advanced Recon Stealth Armor install options">
+<img src="images/NMM%20Advanced%20Recon%20Stealth%20Armor%20install%20options.png" alt="NMM Advanced Recon Stealth Armor install options">
 </div>
 <div class="title">Figure 128. NMM Advanced Recon Stealth Armor install options</div>
 </div>
@@ -3412,7 +3412,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>When you activate <em>Advanced Recon Thermal Nightvision - Adv Recon Thermal Nightvision</em>, NMM asks for permission to overwrite files from the previous iHUD installation. It adds certain overlay items when using scopes and binoculars. Answer <em>Yes to all</em>, as usual.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Advanced%20Recon%20Range%20Finder%20overwrite.png" alt="NMM Advanced Recon Range Finder overwrite">
+<img src="images/NMM%20Advanced%20Recon%20Range%20Finder%20overwrite.png" alt="NMM Advanced Recon Range Finder overwrite">
 </div>
 <div class="title">Figure 129. NMM Advanced Recon Range Finder overwrite</div>
 </div>
@@ -3424,13 +3424,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and check your new nice looking outfit. In your Pip-Boy (section <em>Items</em>, option <em>Apparel</em>), there are two new options to configure your Advanced Recon gear settings.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Advanced%20Recon%20black%20coat.png" alt="Fallout 3 Advanced Recon black coat">
+<img src="images/Fallout%203%20Advanced%20Recon%20black%20coat.png" alt="Fallout 3 Advanced Recon black coat">
 </div>
 <div class="title">Figure 130. Fallout 3 Advanced Recon black coat</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Advanced%20Recon%20gear%20settings.png" alt="Fallout 3 Advanced Recon gear settings">
+<img src="images/Fallout%203%20Advanced%20Recon%20gear%20settings.png" alt="Fallout 3 Advanced Recon gear settings">
 </div>
 <div class="title">Figure 131. Fallout 3 Advanced Recon gear settings</div>
 </div>
@@ -3516,7 +3516,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>You will have to start a fresh game to see the achievements log in action. At your ninth birthday party, when you receive your own Pip-Boy from the hands of the Overseer,  navigate through the <em>Data</em> button, <em>Notes</em> option. There should be a <em>Personal achievements Log</em> option to view your short achievement list (at least for the time being).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20personal%20achievements%20log.png" alt="Fallout 3 personal achievements log">
+<img src="images/Fallout%203%20personal%20achievements%20log.png" alt="Fallout 3 personal achievements log">
 </div>
 <div class="title">Figure 132. Fallout 3 personal achievements log</div>
 </div>
@@ -3640,7 +3640,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have all the files we need in NMM, locked and loaded.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20RobCo%20mods%20installed.png" alt="NMM RobCo mods installed">
+<img src="images/NMM%20RobCo%20mods%20installed.png" alt="NMM RobCo mods installed">
 </div>
 <div class="title">Figure 133. NMM RobCo mods installed</div>
 </div>
@@ -3690,7 +3690,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>When you level up, you will get the RobCo Certified perk for you to unleash your nerdy urges.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20RobCo%20Certified%20perk.png" alt="Fallout 3 RobCo Certified perk">
+<img src="images/Fallout%203%20RobCo%20Certified%20perk.png" alt="Fallout 3 RobCo Certified perk">
 </div>
 <div class="title">Figure 134. Fallout 3 RobCo Certified perk</div>
 </div>
@@ -3751,13 +3751,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and take a look at the walkway and the extra story in your house</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Megaton%20walkway.png" alt="Fallout 3 Megaton walkway">
+<img src="images/Fallout%203%20Megaton%20walkway.png" alt="Fallout 3 Megaton walkway">
 </div>
 <div class="title">Figure 135. Fallout 3 Megaton walkway</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Megaton%20new%20balcony.png" alt="Fallout 3 Megaton new balcony">
+<img src="images/Fallout%203%20Megaton%20new%20balcony.png" alt="Fallout 3 Megaton new balcony">
 </div>
 <div class="title">Figure 136. Fallout 3 Megaton new balcony</div>
 </div>
@@ -3884,13 +3884,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and just compare.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20night%20before.png" alt="Fallout 3 night before">
+<img src="images/Fallout%203%20night%20before.png" alt="Fallout 3 night before">
 </div>
 <div class="title">Figure 137. Fallout 3 night before</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20night%20after.png" alt="Fallout 3 night after">
+<img src="images/Fallout%203%20night%20after.png" alt="Fallout 3 night after">
 </div>
 <div class="title">Figure 138. Fallout 3 night after</div>
 </div>
@@ -3961,7 +3961,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p><code>Rain2.dds</code></p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Project%20Reality%20with%20enhanced%20weather%20textures.png" alt="Fallout 3 Project Reality with enhanced weather textures">
+<img src="images/Fallout%203%20Project%20Reality%20with%20enhanced%20weather%20textures.png" alt="Fallout 3 Project Reality with enhanced weather textures">
 </div>
 <div class="title">Figure 139. Fallout 3 Project Reality with enhanced weather textures</div>
 </div>
@@ -4002,7 +4002,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Open NMM and click on the green plus sign in the left button bar to manually add the file we just created.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20install%20mod%20from%20file.png" alt="NMM install mod from file">
+<img src="images/NMM%20install%20mod%20from%20file.png" alt="NMM install mod from file">
 </div>
 <div class="title">Figure 140. NMM install mod from file</div>
 </div>
@@ -4011,7 +4011,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>When the file is loaded, select it and click on the info button to change the name to "F3ProjectRealityMkI retextured".</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20renaming%20Project%20Reality.png" alt="NMM renaming Project Reality">
+<img src="images/NMM%20renaming%20Project%20Reality.png" alt="NMM renaming Project Reality">
 </div>
 <div class="title">Figure 141. NMM renaming Project Reality</div>
 </div>
@@ -4026,13 +4026,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and check the incredible look the Wasteland just got! Compare before and after:</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Project%20Reality%20before.png" alt="Fallout 3 Project Reality before">
+<img src="images/Fallout%203%20Project%20Reality%20before.png" alt="Fallout 3 Project Reality before">
 </div>
 <div class="title">Figure 142. Fallout 3 Project Reality before</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Project%20Reality%20after.png" alt="Fallout 3 Project Reality after">
+<img src="images/Fallout%203%20Project%20Reality%20after.png" alt="Fallout 3 Project Reality after">
 </div>
 <div class="title">Figure 143. Fallout 3 Project Reality after</div>
 </div>
@@ -4041,7 +4041,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Pull up your Pip-Boy to check the new option in <em>Items</em>/<em>Apparel</em> section to configure <em>Project Reality</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Project%20Reality%20option.png" alt="Fallout 3 Project Reality option">
+<img src="images/Fallout%203%20Project%20Reality%20option.png" alt="Fallout 3 Project Reality option">
 </div>
 <div class="title">Figure 144. Fallout 3 Project Reality option</div>
 </div>
@@ -4050,7 +4050,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Click on <em>Project Reality MkI</em> and check the settings. There are a lot of things for you to tinker with until you feel comfortable (or uncomfortable, since I guess radioactive rain is not a pretty thing to be under).</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Project%20Reality%20settings.png" alt="Fallout 3 Project Reality settings">
+<img src="images/Fallout%203%20Project%20Reality%20settings.png" alt="Fallout 3 Project Reality settings">
 </div>
 <div class="title">Figure 145. Fallout 3 Project Reality settings</div>
 </div>
@@ -4059,7 +4059,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Just a small note&#8230;&#8203; Remember the previous screenshot showing our enhanced night? Well, look at this:</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20night%20after%20Project%20Reality.png" alt="Fallout 3 night after Project Reality">
+<img src="images/Fallout%203%20night%20after%20Project%20Reality.png" alt="Fallout 3 night after Project Reality">
 </div>
 <div class="title">Figure 146. Fallout 3 night after Project Reality</div>
 </div>
@@ -4132,7 +4132,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We should have the four mods downloaded in no time.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20visual%20enhancements%20downloaded.png" alt="NMM visual enhancements downloaded">
+<img src="images/NMM%20visual%20enhancements%20downloaded.png" alt="NMM visual enhancements downloaded">
 </div>
 <div class="title">Figure 147. NMM visual enhancements downloaded</div>
 </div>
@@ -4156,7 +4156,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game to check the new menus. Pressing <kbd>F7</kbd> will show the <em>Director&#8217;s Chair</em> in-game menu. The best way to get the grasp of the possibilities given by these four mods is watching Gopher&#8217;s video.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Director's%20Chair.png" alt="Fallout 3 Director's Chair">
+<img src="images/Fallout%203%20Director's%20Chair.png" alt="Fallout 3 Director's Chair">
 </div>
 <div class="title">Figure 148. Fallout 3 Director&#8217;s Chair</div>
 </div>
@@ -4414,7 +4414,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have all our mods ready to be installed.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20texture%20mods.png" alt="NMM texture mods">
+<img src="images/NMM%20texture%20mods.png" alt="NMM texture mods">
 </div>
 <div class="title">Figure 149. NMM texture mods</div>
 </div>
@@ -4472,13 +4472,13 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game to see for yourself.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20textures%20and%20flora%20night.png" alt="Fallout 3 new textures and flora night">
+<img src="images/Fallout%203%20new%20textures%20and%20flora%20night.png" alt="Fallout 3 new textures and flora night">
 </div>
 <div class="title">Figure 150. Fallout 3 new textures and flora night</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20textures%20and%20flora%20day.png" alt="Fallout 3 new textures and flora day">
+<img src="images/Fallout%203%20new%20textures%20and%20flora%20day.png" alt="Fallout 3 new textures and flora day">
 </div>
 <div class="title">Figure 151. Fallout 3 new textures and flora day</div>
 </div>
@@ -4490,7 +4490,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20textures.png" alt="Fallout 3 new textures">
+<img src="images/Fallout%203%20new%20textures.png" alt="Fallout 3 new textures">
 </div>
 <div class="title">Figure 152. Fallout 3 new textures</div>
 </div>
@@ -4789,7 +4789,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We should have our detail textures downloaded, ready to activate in NMM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20detail%20texture%20mods.png" alt="NMM detail texture mods">
+<img src="images/NMM%20detail%20texture%20mods.png" alt="NMM detail texture mods">
 </div>
 <div class="title">Figure 153. NMM detail texture mods</div>
 </div>
@@ -4814,7 +4814,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p><em>eXcalibr Ammo eXpansion Pack</em>. This one comes with a FOMOD installer with two options (<em>Override</em> and <em>Override for FWE 6.0.3</em>). Select the last one. It also overwrites textures from <em>FWE</em>, so answer <em>Yes to all</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20eXcalibr%20options.png" alt="NMM eXcalibr options">
+<img src="images/NMM%20eXcalibr%20options.png" alt="NMM eXcalibr options">
 </div>
 <div class="title">Figure 154. NMM eXcalibr options</div>
 </div>
@@ -4832,7 +4832,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p><em>RobCo Certified Textures</em>. This mod has a FOMOD installer to select the kind of texture you want, with a screenshot to help you choose. I&#8217;ll go with "Army". It will also overwrite textures from <em>RobCo Certified</em>, so answer <em>Yes to all</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20RobCo%20Certified%20Textures%20options.png" alt="NMM RobCo Certified Textures options">
+<img src="images/NMM%20RobCo%20Certified%20Textures%20options.png" alt="NMM RobCo Certified Textures options">
 </div>
 <div class="title">Figure 155. NMM RobCo Certified Textures options</div>
 </div>
@@ -4902,7 +4902,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>These are small mods, so you will have them downloaded in a breeze.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Lighting%20mods.png" alt="NMM Lighting mods">
+<img src="images/NMM%20Lighting%20mods.png" alt="NMM Lighting mods">
 </div>
 <div class="title">Figure 156. NMM Lighting mods</div>
 </div>
@@ -4920,19 +4920,19 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Launch the game and take a stroll in the night.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20lighting.png" alt="Fallout 3 new lighting">
+<img src="images/Fallout%203%20new%20lighting.png" alt="Fallout 3 new lighting">
 </div>
 <div class="title">Figure 157. Fallout 3 new lighting</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Megaton%20entrance%20light.png" alt="Fallout 3 Megaton entrance light">
+<img src="images/Fallout%203%20Megaton%20entrance%20light.png" alt="Fallout 3 Megaton entrance light">
 </div>
 <div class="title">Figure 158. Fallout 3 Megaton entrance light</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Megaton%20street%20lights.png" alt="Fallout 3 Megaton street lights">
+<img src="images/Fallout%203%20Megaton%20street%20lights.png" alt="Fallout 3 Megaton street lights">
 </div>
 <div class="title">Figure 159. Fallout 3 Megaton street lights</div>
 </div>
@@ -4980,7 +4980,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20WTF%20with%20your%20eyes.png" alt="Fallout 3 WTF with your eyes">
+<img src="images/Fallout%203%20WTF%20with%20your%20eyes.png" alt="Fallout 3 WTF with your eyes">
 </div>
 <div class="title">Figure 160. Fallout 3 WTF with your eyes</div>
 </div>
@@ -4989,7 +4989,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20WTF%20WTF%20WTF%20DADDY.png" alt="Fallout 3 WTF WTF WTF DADDY">
+<img src="images/Fallout%203%20WTF%20WTF%20WTF%20DADDY.png" alt="Fallout 3 WTF WTF WTF DADDY">
 </div>
 <div class="title">Figure 161. Fallout 3 WTF WTF WTF DADDY</div>
 </div>
@@ -4998,7 +4998,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20ugly%20faces.png" alt="Fallout 3 ugly faces">
+<img src="images/Fallout%203%20ugly%20faces.png" alt="Fallout 3 ugly faces">
 </div>
 <div class="title">Figure 162. Fallout 3 ugly faces</div>
 </div>
@@ -5007,7 +5007,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Amata%20is%20not%20so%20ugly%20after%20all.png" alt="Fallout 3 Amata is not so ugly after all">
+<img src="images/Fallout%203%20Amata%20is%20not%20so%20ugly%20after%20all.png" alt="Fallout 3 Amata is not so ugly after all">
 </div>
 <div class="title">Figure 163. Fallout 3 Amata is not so ugly after all</div>
 </div>
@@ -5044,7 +5044,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>The structure of the ZIP file is a bit weird.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3%20Redesigned%20mod%20structure.png" alt="FO3 Redesigned mod structure">
+<img src="images/FO3%20Redesigned%20mod%20structure.png" alt="FO3 Redesigned mod structure">
 </div>
 <div class="title">Figure 164. FO3 Redesigned mod structure</div>
 </div>
@@ -5094,7 +5094,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Ok, we have all the files we need, ready to be installed.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20people%20redesigned%20and%20reanimated%20mods.png" alt="NMM people redesigned and reanimated mods">
+<img src="images/NMM%20people%20redesigned%20and%20reanimated%20mods.png" alt="NMM people redesigned and reanimated mods">
 </div>
 <div class="title">Figure 165. NMM people redesigned and reanimated mods</div>
 </div>
@@ -5137,7 +5137,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Let&#8217;s see how the game changes with this. What about the defining moment of your birth?</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20not%20so%20scary%20first%20sight.png" alt="Fallout 3 not so scary first sight">
+<img src="images/Fallout%203%20not%20so%20scary%20first%20sight.png" alt="Fallout 3 not so scary first sight">
 </div>
 <div class="title">Figure 166. Fallout 3 not so scary first sight</div>
 </div>
@@ -5146,7 +5146,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20embers%20in%20your%20eyes.png" alt="Fallout 3 embers in your eyes">
+<img src="images/Fallout%203%20embers%20in%20your%20eyes.png" alt="Fallout 3 embers in your eyes">
 </div>
 <div class="title">Figure 167. Fallout 3 embers in your eyes</div>
 </div>
@@ -5155,7 +5155,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>There are certain improvements in the character customization options, although I don&#8217;t quite get my own look-alike.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20enhanced%20character%20customization.png" alt="Fallout 3 enhanced character customization">
+<img src="images/Fallout%203%20enhanced%20character%20customization.png" alt="Fallout 3 enhanced character customization">
 </div>
 <div class="title">Figure 168. Fallout 3 enhanced character customization</div>
 </div>
@@ -5164,7 +5164,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Let&#8217;s check the bunch of people in your ninth birthday.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20better%20faces.png" alt="Fallout 3 better faces">
+<img src="images/Fallout%203%20better%20faces.png" alt="Fallout 3 better faces">
 </div>
 <div class="title">Figure 169. Fallout 3 better faces</div>
 </div>
@@ -5173,7 +5173,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20Amata%20has%20changed%20a%20bit.png" alt="Fallout 3 Amata has changed a bit">
+<img src="images/Fallout%203%20Amata%20has%20changed%20a%20bit.png" alt="Fallout 3 Amata has changed a bit">
 </div>
 <div class="title">Figure 170. Fallout 3 Amata has changed a bit</div>
 </div>
@@ -5182,7 +5182,7 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20look%20at%20your%20feet.png" alt="Fallout 3 look at your feet">
+<img src="images/Fallout%203%20look%20at%20your%20feet.png" alt="Fallout 3 look at your feet">
 </div>
 <div class="title">Figure 171. Fallout 3 look at your feet</div>
 </div>
@@ -5283,7 +5283,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have a lot of texture mods ready to be installed.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20weapon%20textures%20ready.png" alt="NMM weapon textures ready">
+<img src="images/NMM%20weapon%20textures%20ready.png" alt="NMM weapon textures ready">
 </div>
 <div class="title">Figure 172. NMM weapon textures ready</div>
 </div>
@@ -5336,7 +5336,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Run the game to see for your self the quality of the new weapon textures.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/Fallout%203%20new%20textures%20for%20weapons.png" alt="Fallout 3 new textures for weapons">
+<img src="images/Fallout%203%20new%20textures%20for%20weapons.png" alt="Fallout 3 new textures for weapons">
 </div>
 <div class="title">Figure 173. Fallout 3 new textures for weapons</div>
 </div>
@@ -5419,7 +5419,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We have our two mods ready to be installed:</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20Mothership%20Zeta%20textures.png" alt="NMM Mothership Zeta textures">
+<img src="images/NMM%20Mothership%20Zeta%20textures.png" alt="NMM Mothership Zeta textures">
 </div>
 <div class="title">Figure 174. NMM Mothership Zeta textures</div>
 </div>
@@ -5450,7 +5450,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Open FO3Edit and load <strong>ALL</strong> the plugins you have installed. This is important, as you are going to create a merged patch for your whole mod stack. Don&#8217;t pay attention to the mods shown in the screenshots. Your mileage may vary.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20load%20all%20plugins.png" alt="FO3Edit load all plugins">
+<img src="images/FO3Edit%20load%20all%20plugins.png" alt="FO3Edit load all plugins">
 </div>
 <div class="title">Figure 175. FO3Edit load all plugins</div>
 </div>
@@ -5459,7 +5459,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Wait until FO3Edit finishes loading all data files.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20background%20loader%20finished.png" alt="FO3Edit background loader finished">
+<img src="images/FO3Edit%20background%20loader%20finished.png" alt="FO3Edit background loader finished">
 </div>
 <div class="title">Figure 176. FO3Edit background loader finished</div>
 </div>
@@ -5468,7 +5468,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Right-click anywhere in the leftmost panel (the one with the plugin list) and select <em>Other</em>, then <em>Create merged patch</em>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3%20create%20merged%20patch.png" alt="FO3 create merged patch">
+<img src="images/FO3%20create%20merged%20patch.png" alt="FO3 create merged patch">
 </div>
 <div class="title">Figure 177. FO3 create merged patch</div>
 </div>
@@ -5477,7 +5477,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Give the merged patch a meaningful name. I am using the version number of this guide, but you are free to choose whatever you like.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3%20merged%20patch%20name.png" alt="FO3 merged patch name">
+<img src="images/FO3%20merged%20patch%20name.png" alt="FO3 merged patch name">
 </div>
 <div class="title">Figure 178. FO3 merged patch name</div>
 </div>
@@ -5486,7 +5486,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>Check the leftmost panel at the bottom. Your merged patch should sit there.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20merged%20patch%20created.png" alt="FO3Edit merged patch created">
+<img src="images/FO3Edit%20merged%20patch%20created.png" alt="FO3Edit merged patch created">
 </div>
 <div class="title">Figure 179. FO3Edit merged patch created</div>
 </div>
@@ -5495,7 +5495,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We need to exit FO3Edit to save the merged patch. Click on the <em>Close Window</em> icon and make sure the merged patch is selected in the next window. Click <em>Ok</em> to have the <code>.esp</code> file saved to your data folder.</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/FO3Edit%20saving%20merged%20patch.png" alt="FO3Edit saving merged patch">
+<img src="images/FO3Edit%20saving%20merged%20patch.png" alt="FO3Edit saving merged patch">
 </div>
 <div class="title">Figure 180. FO3Edit saving merged patch</div>
 </div>
@@ -5504,7 +5504,7 @@ Powered by FOSE 1.2 b2</code></pre>
 <p>We need to activate the merged patch, so open NMM and navigate to the <em>Plugins</em> tab. Tick the merged patch at the bottom, and you are good to go!</p>
 <div class="imageblock">
 <div class="content">
-<img src="./images/NMM%20merged%20patch%20loaded.png" alt="NMM merged patch loaded">
+<img src="images/NMM%20merged%20patch%20loaded.png" alt="NMM merged patch loaded">
 </div>
 <div class="title">Figure 181. NMM merged patch loaded</div>
 </div>
@@ -5937,8 +5937,8 @@ Powered by FOSE 1.2 b2</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.6<br>
-Last updated 2016-11-01 10:41:11 STD
+Version 0.7-beta<br>
+Last updated 2016-11-02 12:10:10 GMT
 </div>
 </div>
 </body>
